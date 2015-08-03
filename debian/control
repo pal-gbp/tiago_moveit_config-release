@@ -1,0 +1,12 @@
+Source: ros-indigo-tiago-moveit-config
+Section: misc
+Priority: extra
+Maintainer: PAL Robotics <info@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-tiago-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-joint-state-publisher, ros-indigo-moveit-planners-ompl, ros-indigo-moveit-ros-move-group, ros-indigo-moveit-ros-visualization, ros-indigo-robot-state-publisher, ros-indigo-xacro
+Description: An automatically generated package with all the configuration and launch files for using the tiago with the MoveIt Motion Planning Framework
