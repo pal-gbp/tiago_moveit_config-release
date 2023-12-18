@@ -1,6 +1,6 @@
 <package format="3">
   <name>tiago_moveit_config</name>
-  <version>3.0.2</version>
+  <version>3.0.7</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the tiago with the MoveIt Motion Planning Framework
   </description>
@@ -11,11 +11,11 @@
 
   <license>Apache License 2.0</license>
 
-  <url type="website">http://moveit.ros.org/</url>
-  <url type="bugtracker">https://github.com/ros-planning/moveit_setup_assistant/issues</url>
-  <url type="repository">https://github.com/ros-planning/moveit_setup_assistant</url>
+  <url type="website">https://github.com/pal-robotics/tiago_simulation</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend condition="$PAL_DISTRO >= alum">pal_module_cmake</build_depend>
 
   <exec_depend>launch_pal</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
