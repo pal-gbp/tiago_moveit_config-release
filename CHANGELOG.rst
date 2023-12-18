@@ -2,6 +2,41 @@
 Changelog for package tiago_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.7 (2023-12-18)
+------------------
+* Add if statement for moveit sensor manager
+* Newline at the end of the file
+* Add moveit sensor params
+* Contributors: David ter Kuile, Noel Jimenez
+
+3.0.6 (2023-11-14)
+------------------
+* Update website
+* Contributors: Noel Jimenez
+
+3.0.5 (2023-11-13)
+------------------
+* Remove use_sim_time from module
+* Set use_sim_time false as default
+* Contributors: Noel Jimenez
+
+3.0.4 (2023-11-07)
+------------------
+* Specify arguments for move_group module
+* Contributors: Noel Jimenez
+
+3.0.3 (2023-09-21)
+------------------
+* Merge branch 'add_modules' into 'humble-devel'
+  Adding move_group module
+  See merge request robots/tiago_moveit_config!61
+* Adding move_group module
+* Merge branch 'remove_pal_flags_dependency' into 'humble-devel'
+  Remove pal flags dependency
+  See merge request robots/tiago_moveit_config!60
+* Remove pal flags dependency
+* Contributors: Jordan Palacios, Noel Jimenez
+
 3.0.2 (2023-06-14)
 ------------------
 * config files regeneration
