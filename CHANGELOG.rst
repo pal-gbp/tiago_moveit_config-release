@@ -2,6 +2,22 @@
 Changelog for package tiago_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.10 (2024-02-29)
+-------------------
+* Read robot_description from the topic
+* Contributors: Noel Jimenez
+
+3.0.9 (2024-01-31)
+------------------
+* delete arm controllers when no-arm
+* change config files name when no end_effector & adding robotiq config files
+* Contributors: Aina Irisarri
+
+3.0.8 (2024-01-12)
+------------------
+* Publish robot_description_semantic
+* Contributors: Noel Jimenez
+
 3.0.7 (2023-12-18)
 ------------------
 * Add if statement for moveit sensor manager
