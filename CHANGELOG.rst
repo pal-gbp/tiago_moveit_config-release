@@ -2,6 +2,57 @@
 Changelog for package tiago_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.15 (2024-06-10)
+-------------------
+* Merge branch 'feat/motions' into 'humble-devel'
+  add custom file for posible costumers
+  See merge request robots/tiago_moveit_config!83
+* new disable collision for robotiq
+* add disable collision
+* add custom file for posible costumers
+* Contributors: Aina, davidterkuile
+
+3.0.14 (2024-05-13)
+-------------------
+* Merge branch 'omm/feat/imarkers' into 'humble-devel'
+  Restored proper rviz launch file with interactive markers
+  See merge request robots/tiago_moveit_config!82
+* Restored proper rviz launch file with interactive markers
+* Contributors: davidterkuile, oscarmartinez
+
+3.0.13 (2024-05-09)
+-------------------
+* Merge branch 'feat/auto-generated_srdf_files' into 'humble-devel'
+  auto generated srdf files
+  See merge request robots/tiago_moveit_config!81
+* include files
+* create srdf on the go
+* migrate update.sh
+* restructure srdf files
+* add disable collision files & end_effectors files
+* Merge branch 'omm/fix/launch_standarization' into 'humble-devel'
+  Launch files moved to TIAGo family standard
+  See merge request robots/tiago_moveit_config!79
+* Removing deprecated fake controllers
+* Launch files moved to TIAGo family standard
+* Merge branch 'dtk/fix/missing-dependency' into 'humble-devel'
+  Fix missing dependency
+  See merge request robots/tiago_moveit_config!78
+* Add missing moveit-ros-perception dependency
+* Contributors: Aina Irisarri, David ter Kuile, Noel Jimenez, Oscar, davidterkuile
+
+3.0.12 (2024-03-06)
+-------------------
+* Enable log colors for move_group and rviz nodes
+* Revert "Install the moveit setup assistant to avoid some warnings"
+  This reverts commit 7d51b736a0d22bd12bad43f9322f1a52c4532d46.
+* Contributors: Noel Jimenez
+
+3.0.11 (2024-03-04)
+-------------------
+* Install the moveit setup assistant to avoid some warnings
+* Contributors: Noel Jimenez
+
 3.0.10 (2024-02-29)
 -------------------
 * Read robot_description from the topic

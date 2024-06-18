@@ -1,6 +1,6 @@
 <package format="3">
   <name>tiago_moveit_config</name>
-  <version>3.0.10</version>
+  <version>3.0.15</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the tiago with the MoveIt Motion Planning Framework
   </description>
@@ -24,6 +24,7 @@
   <exec_depend>moveit_kinematics</exec_depend>
   <exec_depend>moveit_planners_ompl</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>
+  <exec_depend>moveit_ros_perception</exec_depend>
   <exec_depend>tiago_description</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
