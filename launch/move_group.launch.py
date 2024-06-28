@@ -20,10 +20,10 @@ from launch_ros.actions import Node
 from tiago_description.tiago_launch_utils import get_tiago_hw_suffix
 from moveit_configs_utils import MoveItConfigsBuilder
 from launch_pal.arg_utils import LaunchArgumentsBase
-from launch_pal.robot_arguments import TiagoArgs
+from tiago_description.launch_arguments import TiagoArgs
 from launch.substitutions import LaunchConfiguration
 from dataclasses import dataclass
-from launch_pal.arg_utils import CommonArgs
+from launch_pal.robot_arguments import CommonArgs
 from ament_index_python.packages import get_package_share_directory
 
 
