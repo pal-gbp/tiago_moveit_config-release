@@ -20,10 +20,10 @@ from tiago_description.tiago_launch_utils import get_tiago_hw_suffix
 from launch.actions import DeclareLaunchArgument, OpaqueFunction
 from launch_ros.actions import Node
 from moveit_configs_utils import MoveItConfigsBuilder
-from launch_pal.robot_arguments import TiagoArgs
+from tiago_description.launch_arguments import TiagoArgs
 from launch_pal.arg_utils import LaunchArgumentsBase
 from dataclasses import dataclass
-from launch_pal.arg_utils import CommonArgs
+from launch_pal.robot_arguments import CommonArgs
 
 
 @dataclass(frozen=True)
