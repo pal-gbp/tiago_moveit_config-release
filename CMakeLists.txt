@@ -6,6 +6,8 @@ find_package(pal_module_cmake QUIET)
 
 if(pal_module_cmake_FOUND)
   pal_register_modules(module/move_group.yaml)
+elseif(DEFINED ENV{PAL_DISTRO})
+  message(FATAL_ERROR "The pal_module_cmake package was not found. Modules not registered.")
 endif()
 
 if(BUILD_TESTING)
