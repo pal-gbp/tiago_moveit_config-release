@@ -2,6 +2,16 @@
 Changelog for package tiago_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.18 (2024-07-25)
+-------------------
+* Change parameter to arm_type
+* Contributors: thomas.peyrucain
+
+3.0.17 (2024-07-09)
+-------------------
+* Add warning for pal_module_cmake not found
+* Contributors: Noel Jimenez
+
 3.0.16 (2024-06-26)
 -------------------
 * Merge branch 'dtk/move-robot-args' into 'humble-devel'
