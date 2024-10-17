@@ -71,7 +71,6 @@ def start_rviz(context, *args, **kwargs):
     hw_suffix = get_tiago_hw_suffix(
         arm=arm_type,
         end_effector=end_effector,
-        ft_sensor=ft_sensor,
     )
 
     srdf_file_path = os.path.join(
