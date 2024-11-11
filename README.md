@@ -1,3 +1,26 @@
+## tiago_moveit_config (humble) - 3.1.1-1
+
+The packages in the `tiago_moveit_config` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y tiago_moveit_config` on `Mon, 11 Nov 2024 07:53:30 -0000`
+
+The `tiago_moveit_config` package was released.
+
+Version of package(s) in repository `tiago_moveit_config`:
+
+- upstream repository: https://github.com/pal-robotics/tiago_moveit_config.git
+- release repository: https://github.com/pal-gbp/tiago_moveit_config-release.git
+- rosdistro version: `3.1.0-1`
+- old version: `3.1.0-1`
+- new version: `3.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## tiago_moveit_config (humble) - 3.1.0-1
 
 The packages in the `tiago_moveit_config` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y tiago_moveit_config` on `Thu, 17 Oct 2024 08:49:42 -0000`
